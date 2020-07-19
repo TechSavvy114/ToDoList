@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/lightGreen"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/noteCard"
+        app:cardElevation="5dp"
+        app:contentPadding="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        app:cardBackgroundColor="#E8592C"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="20dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+           android:textStyle="italic"
+            android:textColor="#000"
+            android:padding="5dp"
+            android:textSize="15sp"/>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_below="@id/noteCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardView"
+        app:cardElevation="5dp"
+        app:contentPadding="5dp"
+        app:cardCornerRadius="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        >
+
+
+
+        <TextView
+            android:id="@+id/titles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="textview"
+            android:textSize="14sp"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:layout_marginLeft="135dp"
+            android:layout_width="wrap_content"
+            android:layout_alignLeft="@id/titles"
+            android:layout_height="wrap_content"
+            android:id="@+id/menuIcon"
+            android:src="@drawable/ic_menuicon"/>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

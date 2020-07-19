@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "510084949423",
+    "firebase_url": "https://firstdb-a2be9.firebaseio.com",
+    "project_id": "firstdb-a2be9",
+    "storage_bucket": "firstdb-a2be9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510084949423:android:19f88d6aeeeff92047fb5a",
+        "android_client_info": {
+          "package_name": "com.example.todolist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510084949423-f3gan4hsmupmraht1jogovntv2tomium.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYB4muQVbxqnsKAFsQ25g-WRF98I_yoXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "510084949423-f3gan4hsmupmraht1jogovntv2tomium.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510084949423:android:288414fb2b55479747fb5a",
+        "android_client_info": {
+          "package_name": "sdk.its"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510084949423-f3gan4hsmupmraht1jogovntv2tomium.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYB4muQVbxqnsKAFsQ25g-WRF98I_yoXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "510084949423-f3gan4hsmupmraht1jogovntv2tomium.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
